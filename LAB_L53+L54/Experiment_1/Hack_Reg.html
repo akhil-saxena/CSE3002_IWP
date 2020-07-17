@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Images/hackathon.ico">
+
+    <title>SEDS Hackathon</title>
+
+    <style>
+        head {
+            background-color: rgb(97, 97, 97);
+            text-align: center;
+            color: rgb(28, 70, 124);
+            font-family: 'Helvetica Neue';
+            ;
+        }
+
+        body {
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-family: Roboto, 'Helvetica Neue';
+            background-image: url('Images/BG_3.jpg');
+        }
+
+        footer {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+    <img src="Images/astranegativelogoFINAL.png" alt="ASTRA_Neg_Logo" style="width:250px">
+    <h1>A Space Themed Hackathon</h1>
+
+
+</head>
+
+<body>
+    <p style="font-family:verdana">Please Enter your Registration Details</p>
+    <div align="center">
+        <form id="Hack_reg">
+            <table>
+                <tr>
+                    <td align="left">Name: </td>
+                    <td align="right"><input type="text" name="Name" required placeholder="Enter your Name"></td>
+                </tr>
+                <tr>
+                    <td align="left">Email: </td>
+                    <td align="right"><input type="email" name="Email" required placeholder="Enter a valid Email ID">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Mobile: </td>
+                    <td align="right"><input type="tel" name="Mobile" required placeholder="Enter a valid Mobile No.">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Gender: </td>
+                    <td align="justify">
+                        <input type="radio" name="Gender" id="Male" value="Male"><label for="Male"> M</label>
+                        <input type="radio" name="Gender" id="Female" value="Female"><label for="Female">F</label>
+                        <input type="radio" name="Gender" id="Other" value="Other"><label for="Other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">College: </td>
+                    <td align="right">
+                        <input type="text" name="College" id="College" list="College_List" required
+                            placeholder="Select College">
+                        <datalist id="College_List">
+                            <option value="VIT">
+                            <option value="Other College">
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+
+            <p align="center"><input type="checkbox" name="T_C" id="T_C" required>Please check the box to accept Terms &
+                Conditions for participating in ASTRA.</p>
+            <br>
+            <button align="center" type="submit" value="Submit">Submit</button>
+            <button align="center" type="reset" value="Reset">Reset</button>
+        </form>
+        <br>
+    </div>
+    <div align="center">
+        <table>
+            <tr>
+                <td align="left">
+                    <p align="center">Embedded Audio</p>
+                    <audio controls>
+                        <Source src="Music/Melody.mp3" loop="loop">
+                    </audio>
+                </td>
+                <td align="center"></td>
+                <td align="right">
+                    <iframe width="360" height="240" src="https://www.youtube.com/embed/sf92OZR9pTs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay="true"
+                        allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
+
+        <footer>
+            <p align="center" font-family='Helvetica Neue'>Developed by Akhil Saxena - 18BCE0969</p>
+        </footer>
+</body>
+
+</html>
